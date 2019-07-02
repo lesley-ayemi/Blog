@@ -35,8 +35,8 @@
                     if(!$update_query) {
                         die("QUERY FAILED" . mysqli_error($connection));
                     } else{
-                        // echo "Record Successfully Updated";
-                        echo $cat_title;
+                        echo "Record Successfully Updated";
+                        // echo $cat_title;
                     }
 
      

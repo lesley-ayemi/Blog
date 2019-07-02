@@ -13,12 +13,12 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Post Screens:</h6>
-          <a class="dropdown-item" href="#">View All Post</a>
+          <a class="dropdown-item" href="./posts.php">View All Post</a>
           <a class="dropdown-item" href="#">Add Post</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="categories.php">
           <i class="fas fa-fw fa-table"></i>
           <span>Categories</span></a>
       </li>
