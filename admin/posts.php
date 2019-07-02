@@ -23,7 +23,33 @@
 
         <?php
         
-        if(isset($))
+        if(isset($_GET['source'])){
+            $source = $_GET['source'];
+        } else{
+            $source = '';
+        }
+
+        switch($source){
+
+            case '34';
+            echo "NICE 34";
+            break;
+
+            case '100';
+            echo "NICE 100";
+            break;
+
+            case '200';
+            echo 'NICE 200';
+            break;
+
+            default:
+            //code here
+            include "includes/view_all_post.php";
+
+            break;
+
+        }
         
         
         
